@@ -1,0 +1,1 @@
+enum FilterOption { todos, menorIgualN, mayorN }
