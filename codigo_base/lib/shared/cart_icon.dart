@@ -9,7 +9,7 @@ class CartIcon extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final filterState = ref.watch(filterNotifierProvider);
-    final numeroItems = ref.watch(cartNotifierProvider).length;
+    final numeroItems = ref.watch(filteredCartProvider).length;
 
     return Stack(
       children: [
